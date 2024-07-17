@@ -40,7 +40,7 @@ jobs:
       - name: Build And Deploy
         uses: Azure/static-web-apps-deploy@1a947af9992250f3bc2e68ad0754c0b0c11566c9
         with:
-          azure_static_web_apps_api_token: f6702796654fbd04cb6cef7858b8e5be6eadc415c1f1be54e29d4b0df64eaff45-d497c23c-edd4-4f93-a0c9-364e85624f8000f294471
+          azure_static_web_apps_api_token: 1125582d372b8f92aaef2404b17c4bd7a82c229efde0d1ad392a85966af9b5205-85443034-6341-478c-bffb-698a454195b700f294531
           repo_token: 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
           action: "upload"
           app_location: ${{ env.APP_LOCATION }}
