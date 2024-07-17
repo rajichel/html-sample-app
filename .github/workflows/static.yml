@@ -40,8 +40,8 @@ jobs:
       - name: Build And Deploy
         uses: Azure/static-web-apps-deploy@1a947af9992250f3bc2e68ad0754c0b0c11566c9
         with:
-          azure_static_web_apps_api_token: 2451b197d2f0f947e3d522198978a0c2873217371f100f3b63232389107d877e5-2ae87ecb-4843-4ec6-8478-6baa1768caf400f293466
-          repo_token: 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
+          azure_static_web_apps_api_token: f6702796654fbd04cb6cef7858b8e5be6eadc415c1f1be54e29d4b0df64eaff45-d497c23c-edd4-4f93-a0c9-364e85624f8000f294471
+          repo_token: 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
           action: "upload"
           app_location: ${{ env.APP_LOCATION }}
           api_location: ${{ env.API_LOCATION }}
@@ -55,5 +55,5 @@ jobs:
       - name: Close Pull Request
         uses: Azure/static-web-apps-deploy@1a947af9992250f3bc2e68ad0754c0b0c11566c9
         with:
-          azure_static_web_apps_api_token: 2451b197d2f0f947e3d522198978a0c2873217371f100f3b63232389107d877e5-2ae87ecb-4843-4ec6-8478-6baa1768caf400f293466
+          azure_static_web_apps_api_token: f6702796654fbd04cb6cef7858b8e5be6eadc415c1f1be54e29d4b0df64eaff45-d497c23c-edd4-4f93-a0c9-364e85624f8000f294471
           action: "close"
